@@ -1,0 +1,17 @@
+{
+  "name": "vue-manual",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --env.development --open",
+    "build": "webpack --env.production"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "vue": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
