@@ -29,6 +29,7 @@ module.exports = env => {
         vue: 'vue/dist/vue.esm'
       }
     },
+    //扩展运算符的作用：深拷贝还是浅拷贝
     ...env.development ? require('./config/webpack.dev') : require('./config/webpack.prod')
   }
 }
